@@ -1,0 +1,265 @@
+.container {
+    width: 1122px;
+    height: 470px;
+    border: solid;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+}
+
+.top1 {
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: gray;
+    
+}
+
+.top2 {
+    width: 50%;
+    height: 100px;
+    float: right;
+    background-color: #d84b4b;
+    
+}
+
+.middle {
+    width: 100%;
+    height: 300px;
+}
+
+.middle1 {
+    visibility: visible;
+    width: 337px;
+    height: 300px;
+    float: left;
+    background-color: #48b1ab;
+    
+}
+
+.middle2 {
+    width: 785px;
+    height: 300px;
+    float: right;
+    background-color: #7e96e6;
+}
+
+.botton {
+    width: 100%;
+    height: 70px;
+}
+
+.botton1 {
+    width: 100%;
+    height: 100%;
+    background-color: #ebc7a6;
+}
+
+.botton2 {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+    background-color: #8dce9d;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 470px;
+        border: solid;
+    }
+    
+    .top {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .top1 {
+        width: 50%;
+        height: 100px;
+        float: left;
+        background-color: gray;
+        
+    }
+    
+    .top2 {
+        width: 50%;
+        height: 100px;
+        float: right;
+        background-color: #d84b4b;
+        
+    }
+    
+    .middle {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .middle1 {
+        visibility: visible;
+        width: 30%;
+        height: 300px;
+        float: left;
+        background-color: #48b1ab;
+        
+    }
+    
+    .middle2 {
+        width: 70%;
+        height: 300px;
+        float: right;
+        background-color: #7e96e6;
+    }
+    
+    .botton {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .botton1 {
+        width: 100%;
+        height: 100%;
+        background-color: #ebc7a6;
+    }
+
+    .botton2 {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+        background-color: #8dce9d;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        height: 470px;
+        border: solid;
+    }
+    
+    .top {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .top1 {
+        width: 50%;
+        height: 100px;
+        float: left;
+        background-color: gray;
+        
+    }
+    
+    .top2 {
+        width: 50%;
+        height: 100px;
+        float: right;
+        background-color: #d84b4b;
+        
+    }
+    
+    .middle {
+        width: 100%;
+        height: 300px;
+    }
+
+    .middle1 {
+        visibility: hiddenble;
+        width: 0%;
+        height: 0%;
+        background-color: #48b1ab;
+        
+    }
+    
+    .middle2 {
+        width: 100%;
+        height: 300px;
+        background-color: #7e96e6;
+    }
+    
+    .botton {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .botton1 {
+        width: 100%;
+        height: 100%;
+        background-color: #ebc7a6;
+    }
+
+    .botton2 {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+        background-color: #8dce9d;
+    }
+    
+}
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+        height: 470px;
+        border: solid;
+    }
+    
+    .top {
+        width: 100%;
+        height: 130px;
+    }
+    
+    .top1 {
+        width: 100%;
+        height: 50%;
+        background-color: gray;
+        
+    }
+    
+    .top2 {
+        width: 100%;
+        height: 50%;
+        background-color: #d84b4b;
+        
+    }
+    
+    .middle {
+        width: 100%;
+        height: 240px;
+    }
+
+    .middle1 {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+        background-color: #48b1ab;
+        
+    }
+    
+    .middle2 {
+        width: 100%;
+        height: 100%;
+        background-color: #7e96e6;
+    }
+    
+    .botton {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .botton1 {
+        width: 100%;
+        height: 50%;
+        background-color: #ebc7a6;
+    }
+
+    .botton2 {
+        visibility: visible;
+        width: 100%;
+        height: 50%;
+        background-color: #8dce9d;
+    }
+    
+}
+
+
